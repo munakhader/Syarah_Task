@@ -1,0 +1,54 @@
+body {font-family: DroidKufiBold;}
+.container-fluid {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bbbbbb+0,ffffff+45&1+0,0+45 */
+background: -moz-linear-gradient(top, rgba(187,187,187,1) 0%, rgba(255,255,255,0) 45%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(187,187,187,1) 0%,rgba(255,255,255,0) 45%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(187,187,187,1) 0%,rgba(255,255,255,0) 45%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */}
+li, ul { list-style:none}
+.navbar{ width:88%; margin:auto; padding:0px}
+.navbar-dark .navbar-nav .active > .nav-link{ color:#f39c12}
+.navbar, .navbar-dark .navbar-nav .nav-link, .call { color:#838383; font-size:17px;}
+.call{ font-size:22px; font-family:Arial, Helvetica, sans-serif}
+.navbar-dark, .bg-dark{ background-color:#000 !important;}
+.carousel-control-prev-icon {background-image: url(../images/prev.png)}
+.carousel-control-next-icon {background-image: url(../images/next.png)}
+.carousel-control-prev-icon, .carousel-control-next-icon{width: 34px;height: 60px} 
+.carousel-control-next, .carousel-control-prev{width: 5%;}
+.navbar-toggler{ border:0px}
+.navtxt{ background-color:#0e0e0e; border-left:1px solid #1a1a1a; border-right:1px solid #1a1a1a; padding-left:50px; width:100%;}
+.citytxt{ padding-left:10px;text-align:center}
+.mrg-5{ margin:5px 0px}
+.searchboox, .cardbox{ width:88%; margin:auto}
+.custom-select, .btn, .searchboox{ font-size:11px}
+.card-title{ color:#f39c12; font-size:14px}
+.card-body h2{ font-size:16px}
+.card-body p{ margin-bottom: 5px;}
+.time{ padding-bottom:45px; font-size:14px; font-family:Tahoma, Geneva, sans-serif; color:#7d7d7d}
+.btncard{ background-color:#1abc9c; color:#fff}
+.cardboxtxt{ border: 1px solid #ccc; background-color:#f8f8f8; margin-bottom:25px}
+.cardbox{  margin-top:15px}
+.mrg-auto{ margin:auto}
+.dsp-block{display:inline-block}
+.pagination > li > a, .pagination > li > span{background-color:#f2f2f2;font-size:13px; margin:5px}
+.page-link{ font-size:15px; color:#272727;}
+.card-deck .page-link{ padding:0px}
+.page-item.active .page-link{background-color: #f39c12;border-color: #f39c12;}
+.card-deck .page-link:hover {color:#fff;text-decoration:none;background-color:#1abc9c;border-color:#1abc9c}
+.card-deck .page-link:hover .btncard { background-color:#fff; color:#1abc9c}
+.card-deck .page-link:hover .card-title, .card-deck .page-link:hover .time, .card-deck .page-link:hover .price {color:#fff}
+.w-35{margin:auto; width:35%} 
+.ftr-box{ width:38%;margin: auto;}
+footer{width:100%;padding: 30px;font-size: 17px;color: #55595c; text-align:center; margin-top:70px}
+footer li{ list-style:none; float:right; margin:auto}
+footer li .nav-link{ color:#55595c}
+footer p{ font-size:13px; padding-top:20px}
+.custom-select[multiple], .custom-select[size]:not([size="1"]){height: 46px;padding-bottom: 6px;padding-top: 6px;}
+@media (max-width: 992px) {.navbar-collapse{ height:100%; font-size:15px; float:right; padding:0px} }
+@media (max-width: 576px) {.carousel-control-prev-icon,.carousel-control-next-icon { width: 15px;height: 25px;} 
+.w-35{margin:auto; width:100%} }  
+@media (min-width: 992px) {.navbar-expand-lg .navbar-nav {height: 100%; margin: auto;width: 60%; padding:0px} }
+@media (max-width: 1200px){.navbar-nav .nav-item {float: right ;text-align: right; width:100%; padding-right:15px}
+.citytxt{ padding:15px; text-align:right}
+.navbar, .navbar-dark .navbar-nav .nav-link, .call{ font-size:14px}
+}
+ 

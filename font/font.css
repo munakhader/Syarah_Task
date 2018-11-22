@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'DroidKufiBold';
+	src: url('DroidKufiBold.eot');
+	src: local('DroidKufiBold'), url('DroidKufiBold.woff') format('woff'), url('DroidKufiBold.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_41770">Text with this font applied</p> */
+.fontsforweb_fontid_41770 {
+	font-family: 'DroidKufiBold' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
